@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Usuarios"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Buscar usuario -->
+    <EditText
+        android:id="@+id/searchUserEditText"
+        android:layout_width="374dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Buscar usuario..."
+        android:inputType="text" />
+
+    <!-- Botón: Agregar nuevo usuario -->
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Nuevo Usuario"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView para mostrar la lista de usuarios -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/usersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+</LinearLayout>

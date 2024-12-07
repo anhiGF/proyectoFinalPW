@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <!-- Nombre del usuario -->
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrador"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:gravity="center" />
+
+    <!-- Botón: Gestión de Usuarios -->
+    <Button
+        android:id="@+id/gestionUsuariosButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="Gestión de Usuarios"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botón: Monitorización de Sistema -->
+    <Button
+        android:id="@+id/monitorizacionSistemaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitorización del Sistema"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botón: Cerrar Sesión -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

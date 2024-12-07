@@ -1,0 +1,88 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Número de Control -->
+        <EditText
+            android:id="@+id/numControlEditText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:hint="Número de Control"
+            android:inputType="number" />
+
+        <!-- Nombre -->
+        <EditText
+            android:id="@+id/nombreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Nombre" />
+
+        <!-- Primer Apellido -->
+        <EditText
+            android:id="@+id/primerApellidoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Primer Apellido" />
+
+        <!-- Segundo Apellido -->
+        <EditText
+            android:id="@+id/segundoApellidoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Segundo Apellido (opcional)" />
+
+        <!-- Correo Electrónico -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress" />
+
+        <!-- Fecha de Nacimiento -->
+        <EditText
+            android:id="@+id/fechaNacimientoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Fecha de Nacimiento (YYYY-MM-DD)" />
+
+        <!-- Semestre -->
+        <EditText
+            android:id="@+id/semestreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Semestre (opcional)"
+            android:inputType="number" />
+
+        <!-- Tipo de Usuario -->
+        <Spinner
+            android:id="@+id/tipoUsuarioSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón para guardar -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cambios"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppTutorias</string>
+    <string name="app_logo">ITSJ</string>
+    <string-array name="user_roles">
+        <item>Estudiante</item>
+        <item>Tutor</item>
+        <item>Administrador</item>
+    </string-array>
+
+</resources>

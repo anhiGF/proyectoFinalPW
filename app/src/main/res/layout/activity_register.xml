@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/registerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Registro de Usuario"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Número de control -->
+        <EditText
+            android:id="@+id/registerNumControl"
+            android:layout_width="357dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Número de Control"
+            android:inputType="number" />
+
+        <!-- Nombre -->
+        <EditText
+            android:id="@+id/registerNombre"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Nombre" />
+
+        <!-- Primer apellido -->
+        <EditText
+            android:id="@+id/registerPrimerApellido"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Primer Apellido" />
+
+        <!-- Segundo apellido -->
+        <EditText
+            android:id="@+id/registerSegundoApellido"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Segundo Apellido (Opcional)" />
+
+        <!-- Correo electrónico -->
+        <EditText
+            android:id="@+id/registerCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress" />
+
+        <!-- Contraseña -->
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <!-- Semestre -->
+        <EditText
+            android:id="@+id/registerSemestre"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Semestre"
+            android:inputType="number" />
+
+        <!-- Fecha de nacimiento -->
+        <EditText
+            android:id="@+id/registerFechaNac"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Fecha de Nacimiento (YYYY-MM-DD)"
+            android:inputType="date" />
+
+        <!-- Tipo de usuario -->
+        <Spinner
+            android:id="@+id/registerTipoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón para enviar -->
+        <Button
+            android:id="@+id/registerSubmitButton"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="Registrar"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
